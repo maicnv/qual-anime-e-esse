@@ -203,7 +203,7 @@ else:
 
         
         sleep(1)
-        if resposta anime:
+        if resposta:
 
             # o anime mostrado é o correto
             if resposta == 'Sim':
