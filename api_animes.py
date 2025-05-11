@@ -197,7 +197,7 @@ else:
             
             label= 'A cena está de acordo com o vídeo?',
             options=['Sim', 'Não'],
-            index=0
+            index=None
         )
 
 
