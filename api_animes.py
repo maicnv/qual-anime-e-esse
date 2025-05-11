@@ -201,20 +201,23 @@ else:
         )
 
 
-        # o anime mostrado é o correto
+        
         sleep(1)
-        if resposta == 'Sim':
-            
-            st.write(f'Boa! Agora é assistir ***{anime['nome']}*** 😁')
+        if resposta anime:
 
-
-        # o anime mostardo é o incorreto
-        else:
-
-            st.write(f'Poxa, acabei comentendo um erro... 😔')
-
-            st.write('🔗 Por favor, ***confira a URL passada***, eu me dou melhor com cenas no formato ***.img*** e .***jpg***;')
-
-            st.write('📷 Imagens com ***baixa qualidade*** são mais difíceis pra mim analisar;')
-
-            st.write('🔒 ***Alguns sites me bloqueiam***, tente trocar a URL.')
+            # o anime mostrado é o correto
+            if resposta == 'Sim':
+                
+                st.write(f'Boa! Agora é assistir ***{anime['nome']}*** 😁')
+    
+    
+            # o anime mostardo é o incorreto
+            else:
+    
+                st.write(f'Poxa, acabei comentendo um erro... 😔')
+    
+                st.write('🔗 Por favor, ***confira a URL passada***, eu me dou melhor com cenas no formato ***.img*** e .***jpg***;')
+    
+                st.write('📷 Imagens com ***baixa qualidade*** são mais difíceis pra mim analisar;')
+    
+                st.write('🔒 ***Alguns sites me bloqueiam***, tente trocar a URL.')
